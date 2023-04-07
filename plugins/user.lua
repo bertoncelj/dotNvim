@@ -1,6 +1,6 @@
 -- TODO: Test neki
 -- HACK: hi hi
-
+-- TODO: Show ana
 return {
   -- You can also add new plugins here as well:
   -- Add plugins, the lazy syntax
@@ -16,6 +16,7 @@ return {
     "folke/todo-comments.nvim",
     dependencies = { "nvim-lua/plenary.nvim" },
     opts = {},
+    -- random commet
     -- config = function()
     -- require("todo-comments").setup {
     -- your configuration comes here
