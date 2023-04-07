@@ -15,3 +15,7 @@ Restart nvim, check if :checkhealth python3 works
 For TODO pluging https://github.com/folke/todo-comments.nvim
 you must install manual "ripgrep" on Win10 from here (https://sourceforge.net/projects/ripgrep.mirror/) and add it to $PATH
 Then command :TodoQuickFix will show up
+
+For LazyGit -> Usage <leader>gg
+Install -> https://github.com/jesseduffield/lazygit/releases
+For Win10 and add it to $PATH
