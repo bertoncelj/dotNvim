@@ -25,4 +25,20 @@ return {
     -- }
     event = "User AstroFile",
   },
+
+  {
+    "iamcco/markdown-preview.nvim",
+    run = function() vim.fn["mkdp#util#install"]() end,
+  },
+
+  -- colorschemes
+  {
+    "ellisonleao/gruvbox.nvim",
+  },
+  {
+    "folke/tokyonight.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = {},
+  },
 }
